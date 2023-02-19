@@ -10,7 +10,7 @@ Trying to reproduce Psalm issue https://github.com/vimeo/psalm/issues/9340
    1. `docker-compose exec php composer install` to install Psalm
    1. `docker-compose exec php ./vendor/bin/psalm`
 
-With you should see that Psalm crashes, and if you change Psalm version to 5.6
+With taht you should see that Psalm crashes, and if you change Psalm version to 5.6
 in `composer.json` file and install it then you will see expected results.
 
 ## License
